@@ -2,43 +2,64 @@
     box-sizing: border-box;
 }
 
+/* styles the whole body */
+
 body {
     background-color: #282828;
     color: white;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-bottom: 100px;
 }
+
+/* Styles the header and footer containers to have slight top and bottom padding and a gray background color. */
 
 .header-cont, .footer-cont {
     padding: 5px 0;
     background-color: #191919;
 }
 
+/* adds a left and right margin to the horizontal rule. */
+
 hr {
     margin: 0 250px;
 }
+
+/* adds a top and bottom as well as left and right margin to the main container. */ 
 
 .main-cont {
     margin: 50px 300px;
     
 }
 
+/* Styles the image to have width of 300px and a height that is set to auto to match scaling. */ 
+
 img {
     width: 300px;
     height: auto;
 }
 
+/* gave a top margin to the main container paragraphs to add a little space at the top. */
+
 .main-cont p {
     margin-top: 40px;
 }
+
+/* gave same top margin as main-cont p to the ul to add some vertical space. */
 
 ul {
     margin-top: 40px;
     padding: 0;
 }
 
+/* Set the list style of the ul li to none so that there would be no bullet points */
+
 ul li {
     list-style: none;
 }
+
+/* Set a left padding, a top margin and aligned the text left */
 
 ol {
     padding-left: 235px;
@@ -46,15 +67,31 @@ ol {
     text-align: left;
 }
 
+/* Added a small padding to top and bottom of the ordered list items to add a bit of vertical space between items. */
+
 ol li {
     padding: 5px 0;
 }
+
+/* Set the text color for links to be white */
 
 a {
     color: white;
 }
 
+/* Set an opacity so that on hover of link items, the text has a affect showing it is being looked at. */
+
 a:hover {
     opacity: 65%;
+}
+
+/* Set footer to always be at the bottom of the page. */
+
+.footer-cont {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 }
 
