@@ -46,10 +46,15 @@ img {
     margin-top: 40px;
 }
 
+#interests {
+    font-weight: 600;
+    margin-top: 40px;
+}
+
 /* gave same top margin as main-cont p to the ul to add some vertical space. */
 
 ul {
-    margin-top: 40px;
+    margin: 0;
     padding: 0;
 }
 
@@ -57,14 +62,16 @@ ul {
 
 ul li {
     list-style: none;
+    font-weight: 200;
 }
 
 /* Set a left padding, a top margin and aligned the text left */
 
 ol {
-    padding-left: 235px;
+    list-style-position: inside;
+    padding-left: 0;
     margin-top: 40px;
-    text-align: left;
+
 }
 
 /* Added a small padding to top and bottom of the ordered list items to add a bit of vertical space between items. */
